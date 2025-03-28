@@ -31,7 +31,7 @@ module.exports = {
       },
       animation: {
         tilt: 'tilt 8s cubic-bezier(0.445, 0.05, 0.55, 0.95) infinite',
-        'rise-up': 'rise-up 1.8s cubic-bezier(0.05, 0.7, 0.1, 1) forwards',
+        'rise-up': 'rise-up 1.8s cubic-bezier(0.05, 0.7, 0.1, 1) 500ms forwards',
         'fall-down': 'fall-down 0.8s ease-in forwards',
       },
     },

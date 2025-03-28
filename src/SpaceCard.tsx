@@ -11,7 +11,7 @@ const SpaceCard = () => {
   return (
     <div
       className={`fixed left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 card perspective-wrapper cursor-pointer
-        ${isLeaving ? 'animate-fall-down' : 'animate-rise-up'}`}
+        ${isLeaving ? 'animate-fall-down' : 'opacity-0 animate-rise-up'}`}
       style={{ perspective: '1800px' }}
       onClick={handleClick}
     >
