@@ -1,16 +1,10 @@
-import { useState } from 'react'
-import logo from './logo.svg'
-import './App.css'
-
+import React from 'react'
+import SpaceCard from './SpaceCard'
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-
-        <h1 class="text-3xl font-bold underline">testing!</h1>
+        <SpaceCard />
       </header>
     </div>
   )
